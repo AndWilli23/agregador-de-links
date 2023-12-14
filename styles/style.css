@@ -43,7 +43,7 @@ body {
 }
 
 .apresentacao {
-    padding: 10% 25%;
+    padding: 5% 25%;
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
@@ -119,7 +119,7 @@ body {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
 
     .cabecalho{
         padding: 15%;
@@ -133,10 +133,20 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 35%;
     }
 
     .apresentacao__conteudo {
         width: auto;
     }
+
 }
+
+@media  (min-width: 1280px) {
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 15%;
+}
+}
+
