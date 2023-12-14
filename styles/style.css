@@ -133,7 +133,7 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 35%;
+        padding: 10%;
     }
 
     .apresentacao__conteudo {
@@ -142,7 +142,7 @@ body {
 
 }
 
-@media  (min-width: 1280px) {
+@media  (min-width: 1024px) {
 
     .apresentacao {
         flex-direction: column-reverse;
